@@ -1,0 +1,15 @@
+public class Metodo4 {
+public static void main(String args[]){
+	
+	int resul;
+	resul = multiplicar();
+	System.out.println("La multiplicacion es: "+resul);
+    
+}
+public static int multiplicar(){
+	int a = 3, b=5;
+	int multi = a * b;
+	return multi;
+}
+
+}
